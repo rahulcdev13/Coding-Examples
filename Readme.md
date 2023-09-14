@@ -147,6 +147,7 @@
     - Stateless components do not have their own internal state.
     - Stateless components are simple, lightweight, and typically focus on rendering and displaying data. 
     - They do not handle complex logic or maintain their own state.
+
   - Stateful Components (Class Components):
     - Stateful components are also known as "class components" or "smart components."
     - They are defined as JavaScript classes that extend the React.Component class.
@@ -365,7 +366,6 @@
     - You can use the spread operator to create a shallow copy of an array.
     - The spread operator can also be used to concatenate arrays.
     - You can spread the properties of an object into another object.
-    - You can use the spread operator to create a shallow copy of an object.
     - The spread operator helps us expand an iterable such as an array where multiple arguments are needed, 
     - it also helps to expand the object expressions. 
 

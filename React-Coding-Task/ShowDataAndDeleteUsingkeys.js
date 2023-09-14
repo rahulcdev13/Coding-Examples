@@ -14,8 +14,9 @@ export default function App() {
 
   const handlerDelete = (index, e) => {
     // alert(id);
-    const newData = data.filter((j) => j !== index);
-    setdata(newData);
+    const updatedData = [...data];
+    updatedData.splice(index, 1);
+    setdata(updatedData);
   };
 
   return (

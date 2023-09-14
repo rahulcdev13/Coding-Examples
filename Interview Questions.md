@@ -1,7 +1,7 @@
 *React Interview Questions*
 
 1. Context API with example 
-  - Context API allows data to be passed through a component tree without having to pass props manually at every level. This makes it easier to share data between components
+  - Context API allows data to be passed through a component tree without having to pass props manually at every level. This makes it easier to share data between components.
   - For example, let’s say you have a shopping app with a component that shows a user’s shopping cart, and another component that shows the user’s order history.
 
   With Context API, you can create a “context” that holds the user’s shopping information, like their cart and order history. Then, you can use that context in both the shopping cart and the order history component, without having to pass the information down through props.
@@ -301,7 +301,7 @@
   - Example : 
   const About = lazy(() => import("./commonFiles/About"));
 
-=====================================================================================================================================
+====================================================================================================================
 
 *JavaScript Interview questions Challenge*
 1. ES6 Features
@@ -337,7 +337,7 @@
 11. Prototype
 12. Data Types 
   - BB NN SS U
-13. TypeOF
+13. Slice and Splice
 14. Singleton 
 
 15. Create constructor and add some properties
