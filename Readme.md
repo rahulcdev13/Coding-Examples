@@ -1,7 +1,7 @@
 *React Interview Questions*
 
 1. Context API with example 
-  - Context API allows data to be passed through a component tree without having to pass props manually at every level. This makes it easier to share data between components
+  - Context API allows data to be passed through a component tree without having to pass props manually at every level. This makes it easier to share data between components.
   - For example, let’s say you have a shopping app with a component that shows a user’s shopping cart, and another component that shows the user’s order history.
 
   With Context API, you can create a “context” that holds the user’s shopping information, like their cart and order history. Then, you can use that context in both the shopping cart and the order history component, without having to pass the information down through props.
@@ -38,7 +38,7 @@
   - useReducer :
     - The useReducer Hook is used to store and update states, just like the useState Hook
     - It accepts a reducer function as its first parameter and the initial state as the second
-    - useReducer returns an array that holds the current state value and a dispatch function to which you can pass an action and later invoke it
+    useReducer returns an array that holds the current state value and a dispatch function to which you can pass an action and later invoke it
     - Example : 
     import React, { useReducer } from 'react';
 
@@ -147,11 +147,10 @@
     - Stateless components do not have their own internal state.
     - Stateless components are simple, lightweight, and typically focus on rendering and displaying data. 
     - They do not handle complex logic or maintain their own state.
-
   - Stateful Components (Class Components):
     - Stateful components are also known as "class components" or "smart components."
-    - They are defined as JavaScript classes that extend the React.Component class.
     - Stateful components can have their own internal state managed through the this.state object.
+    - They are defined as JavaScript classes that extend the React.Component class.
     - Stateful components can also render UI based on their state and props.
 
 6. How to create build and how to host on server
@@ -161,10 +160,9 @@
 
 7. What is Webpack and parcel bundler ?
 
-- Parcel/Webpack is type of a web application bundler used for development and productions purposes or power our application with different type functionalities and features. 
-- It offers blazing fast performance utilizing multicore processing, and requires zero configuration. Parcel can take any type of file as an entry point, but an HTML or JavaScript file is a good place to start. 
-- Parcel/Webpack are type of bundlers that we use to power our application with different type functionalities and features.
-
+- Parcel/Webpack is type of a web application bundler used for development and productions purposes.
+- We use to power our application with different type functionalities and features. 
+- It offers blazing fast performance utilizing multicore processing, and requires zero configuration. Parcel can take any type of file as an entry point, but an HTML or JavaScript file is a good place to start.  
   - Webpack : 
     - is a static module bundler for JavaScript applications
     - Webpack in react is a JavaScript module bundler that is commonly used with React to bundle and manage dependencies
@@ -300,9 +298,9 @@
   - Lazy loading helps to load the web page quickly and presents the limited content to the user that is needed for the interaction
   - lazy loading can be more helpful in applications that have high-resolution images or data that alters the loading time of the application. 
   - Example : 
-  const About = lazy(() => import("./commonFiles/About"));
+  const About = lazy(() => import("./commonFiles/About"));  
 
-=====================================================================================================================================
+====================================================================================================================
 
 *JavaScript Interview questions Challenge*
 1. ES6 Features
@@ -338,7 +336,7 @@
 11. Prototype
 12. Data Types 
   - BB NN SS U
-13. TypeOF
+13. Slice and Splice
 14. Singleton 
 
 15. Create constructor and add some properties
