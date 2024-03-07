@@ -6,17 +6,10 @@ const arr = [
   { fName: "kishor", lName: "chavan", age: "25" },
   { fName: "harshdip", lName: "chavan", age: "27" },
 ];
-console.log(arr);
 
-// output : {25:2,23:2,27:1}
-
-const outout = arr.reduce(function (accumalor, current) {
-  if (accumalor[current.age]) {
-    accumalor[current.age] = ++accumalor[current.age];
-  } else {
-    accumalor[current.age] = 1;
-  }
-  return accumalor;
+const output = arr.reduce(function(accumulator, current) {
+    accumulator[current.age] = (accumulator[current.age] || 0) + 1;
+    return accumulator;
 }, {});
 
-console.log(outout);
+console.log(output); // Output: { '23': 2, '25': 2, '27': 1 }

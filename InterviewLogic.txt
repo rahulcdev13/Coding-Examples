@@ -1,0 +1,93 @@
+
+
+
+
+// var a = 10;
+
+// const fun = () => {
+
+//     console.log(a);
+
+//     var a = 20;
+
+// }
+
+// fun();
+
+
+// console.log(1); // 1
+
+// const p1 = new Promise((res, rej) => {
+//     setTimeout(() => {
+//         console.log(2);
+//     }, 1000);   // 4th time
+// })
+
+// new Promise((res, rej) => {
+//     console.log(3);     // 5th time
+// })
+
+// setTimeout(() => {
+//     console.log(4);   // 3rd time 
+// }, 1000);
+
+// console.log(5);  // 2nd time
+
+
+// output : 1, 5,4,2,3
+
+
+// for (var i=1;i<5;i++) {
+//     setTimeout(() => {
+//         console.log(i);
+//     }, i * 1000);
+// }
+ 
+
+// function getName(num){
+//      return function displayName(){
+//         console.log("a value",a)
+//     }
+// }
+// const display = getName(num)
+// display()
+
+// // console.log("Try programiz.pro");
+
+
+// OutPut of Below code :
+
+console.log(+true) // 1
+console.log(!!"") // false
+
+/* ----------------------------------------------- */
+
+const  arr = [1,2,3,4, 5]
+for(var i =0 ; i < arr.length;i++){
+  setTimeout(()=>{
+    console.log(arr[i])
+  },0)
+}
+// undefined
+// undefined
+// undefined
+// undefined
+// undefined
+
+/* ----------------------------------------------- */
+const obj = {
+    name:"john",
+    getName : function(){
+      console.log(this.name) // john
+    }
+  }
+  obj.getName()
+
+// With arraw function 
+const objs = {
+    name:"john",
+    getName : () => {
+      console.log(this.name) // undefined
+    }
+  }
+  objs.getName() 

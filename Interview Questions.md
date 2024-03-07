@@ -38,7 +38,7 @@
   - useReducer :
     - The useReducer Hook is used to store and update states, just like the useState Hook
     - It accepts a reducer function as its first parameter and the initial state as the second
-    - useReducer returns an array that holds the current state value and a dispatch function to which you can pass an action and later invoke it
+    useReducer returns an array that holds the current state value and a dispatch function to which you can pass an action and later invoke it
     - Example : 
     import React, { useReducer } from 'react';
 
@@ -149,8 +149,8 @@
     - They do not handle complex logic or maintain their own state.
   - Stateful Components (Class Components):
     - Stateful components are also known as "class components" or "smart components."
-    - They are defined as JavaScript classes that extend the React.Component class.
     - Stateful components can have their own internal state managed through the this.state object.
+    - They are defined as JavaScript classes that extend the React.Component class.
     - Stateful components can also render UI based on their state and props.
 
 6. How to create build and how to host on server
@@ -160,10 +160,9 @@
 
 7. What is Webpack and parcel bundler ?
 
-- Parcel/Webpack is type of a web application bundler used for development and productions purposes or power our application with different type functionalities and features. 
-- It offers blazing fast performance utilizing multicore processing, and requires zero configuration. Parcel can take any type of file as an entry point, but an HTML or JavaScript file is a good place to start. 
-- Parcel/Webpack are type of bundlers that we use to power our application with different type functionalities and features.
-
+- Parcel/Webpack is type of a web application bundler used for development and productions purposes.
+- We use to power our application with different type functionalities and features. 
+- It offers blazing fast performance utilizing multicore processing, and requires zero configuration. Parcel can take any type of file as an entry point, but an HTML or JavaScript file is a good place to start.  
   - Webpack : 
     - is a static module bundler for JavaScript applications
     - Webpack in react is a JavaScript module bundler that is commonly used with React to bundle and manage dependencies
@@ -299,7 +298,7 @@
   - Lazy loading helps to load the web page quickly and presents the limited content to the user that is needed for the interaction
   - lazy loading can be more helpful in applications that have high-resolution images or data that alters the loading time of the application. 
   - Example : 
-  const About = lazy(() => import("./commonFiles/About"));
+  const About = lazy(() => import("./commonFiles/About"));  
 
 ====================================================================================================================
 
@@ -365,7 +364,6 @@
     - You can use the spread operator to create a shallow copy of an array.
     - The spread operator can also be used to concatenate arrays.
     - You can spread the properties of an object into another object.
-    - You can use the spread operator to create a shallow copy of an object.
     - The spread operator helps us expand an iterable such as an array where multiple arguments are needed, 
     - it also helps to expand the object expressions. 
 

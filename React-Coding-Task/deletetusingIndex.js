@@ -23,7 +23,7 @@ export default function App() {
         return (
           <>
             <li>
-              <input type="checkbox" /> {item}{" "}
+              {item}{" "}
               <button onClick={() => deleteItem(index)} >X</button>
             </li>
           </>
