@@ -5,4 +5,4 @@ function addNum(num) {
     console.log("Odd Number");
   }
 }
-const oddNumber = addNum(5);
+const oddNumber = addNum(50);

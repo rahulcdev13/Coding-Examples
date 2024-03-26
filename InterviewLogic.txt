@@ -91,3 +91,25 @@ const objs = {
     }
   }
   objs.getName() 
+
+  =====================================================
+  // Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+// let a = {name: 'ABC'};
+// let b = {name: 'ABC'};
+
+// console.log(a==b);
+// console.log(a===b); 
+
+// console.log('a');
+// setTimeout(()=> {
+// 	console.log('b');
+// } ,0);
+// setTimeout(()=>{
+// 	console.log('c');
+// });
+// Promise.resolve().then(()=> {
+//   console.log('d');
+//   return 'e';
+// }).then((e)=>console.log(e));
+// console.log('f');

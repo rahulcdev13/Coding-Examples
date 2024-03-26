@@ -1,0 +1,26 @@
+https://chat.openai.com/share/d980ee96-028b-4446-aa0f-ab3b0e25a1eb
+
+gLOBANT:
+nterview questions
+- HTML, tags, tags semánticos, metatags, SEO
+- CSS, selectores, pseudo elementos, pseudo selectores, preporcesadores, nesting, frameworks, flexbox, grid
+- JS, hoisting, closures, callbacks, variables, promises, scope, local storage, session storage, prototype, array methods, TS, type, interface
+- React, hooks, custom hooks, testing (bastantes preguntas en inglés), jest, react testing library, NextJS, SSR, routing, HOC. Ciclo de vida de un componente, Props
+- Git, Gitflow
+- NodeJS, NestJS, BFF. (Básico)
+Html: tags, semantic html, accesibility
+Css: selectors, pseudo classes and elements, box sizing, specificity
+Js: closures, hoisting, ES6, prototype, classes, operators, loops, objects, array methods, scope
+HTML, CSS and JS basic concepts
+ES6
+React
+Git
+Testing
+Conceptos HTML, Css, javascript y frameworks.
+What css properties fo you know
+What is the difference between == and ===?
+Explain "hoisting".
+What is a closure?
+What do you use in SASS, ej: mixins, variable, functions etc...
+How would you design a responsive site?
+What is a promise and where to use it?
