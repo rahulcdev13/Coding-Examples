@@ -5,7 +5,6 @@ function fibonacci(n) {
   }
   return fibSeries;
 }
-
 // Example usage:
 const n = 10; // Number of Fibonacci numbers to generate
 const fibNumbers = fibonacci(n);
