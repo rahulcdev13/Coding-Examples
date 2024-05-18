@@ -1,10 +1,10 @@
 const str = "hello my name is rahul ";
 
 function reverseWords(str) {
-  const words = str.split(" ");
+  const strs = str.split(" ");
   let reversed = "";
-  for (let i = words.length - 1; i >= 0; i--) {
-    reversed += words[i] + " ";
+  for (let i = strs.length - 1; i >= 0; i--) {
+    reversed += strs[i] + " ";
   }
   return reversed.trim(); // Trim to remove the trailing space
 }
