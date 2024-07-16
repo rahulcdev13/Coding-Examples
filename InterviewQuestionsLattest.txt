@@ -1,0 +1,41 @@
+** Capgemini 01 : 18/05/2024
+Introduction ?
+css box module ?
+let, const, var variable ?
+local storage and session storage ?
+currying function
+housting
+Closour
+-----------------------------------------------------------------------------------------
+type of element in html ? 
+box sizing property ?
+new tag in html ?
+which version you are use in html ?
+debouncing
+Q. Polindrom string check true or false 
+Q. remove duplicate number in js ?
+-----------------------------------------------------------------------------------------
+** Capgemini 02 : 18/05/2024
+Introduction ?
+Clouser ?
+normal function and arrao function ?
+controlled and uncontrolled component ?
+what is context api ?
+useHistory and useNavigate ?
+what is diff context and redux ?
+Q. edit and save api data using react js 
+-----------------------------------------------------------------------------------------
+** UST company kiran khade questions for UST :
+Program
+Reverse string, count of occurrence char
+Q. flexbox and properties
+what is the default positionaning 
+how does absolute positionsing differ from fixed
+how do you create a sticky header or footer
+question s on react hook and it uses 
+HOC and custom hook difference 
+difference between class based componnet and functional component ?
+Qustions bassed on projects 
+create a dropdown menu in reactjs 
+technique use for appplication optimizatoin.
+-----------------------------------------------------------------------------------------
